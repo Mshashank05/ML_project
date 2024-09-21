@@ -13,7 +13,7 @@ import numpy as np
 
 # Load the trained model and scaler
 model = joblib.load('car_sales_prediction_model.pkl')
-scaler = joblib.load('scaler.pkl')
+#scaler = joblib.load('scaler.pkl')
 
 # Streamlit app title
 st.title("Car Sales Prediction App")
